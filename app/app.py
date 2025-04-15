@@ -7,7 +7,8 @@ app.config['JWT_SECRET_KEY'] = 'supersecretkey'
 
 jwt = JWTManager(app)
 
+# Registrar rutas
 app.register_blueprint(task_routes)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=600)
+    app.run(host='0.0.0.0', port=5000)
