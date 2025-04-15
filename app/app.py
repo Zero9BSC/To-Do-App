@@ -1,3 +1,7 @@
+# To-Do App - RESTful API with Flask + MySQL + Docker
+# Author: Franco Nicolás Jones
+# Description: A simple task manager backend for demo/portfolio purposes
+
 from flask import Flask
 from routes import task_routes
 from flask_jwt_extended import JWTManager
